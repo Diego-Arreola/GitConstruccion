@@ -1,5 +1,6 @@
 public class Calculadora{
-    public double resta(double num1, double num2){
-        return (num1 - num2);
+    public double calcularResta(double numero1, double numero2){
+        double resultado = numero1 - numero2;
+        return resultado;
     }
 }
