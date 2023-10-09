@@ -2,7 +2,8 @@
 
 class Calculadora {
 
-    public double suma(double numero1, double numero2) {
-        return numero1 + numero2;
+    public static double calcularSuma(double numero1, double numero2) {
+        double resultado = numero1 + numero2;
+        return resultado;
     }
 }
