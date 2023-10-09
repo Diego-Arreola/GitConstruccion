@@ -1,9 +1,9 @@
 public class Calculadora{
-    public double calcularDivision(double numero1, double numero2) throws Exception{
+    public double calcularDivision(double numerador, double denominador) throws Exception{
         double resultado = 0;
 
-        if(numero2 != 0){
-            resultado = numero1 / numero2;
+        if(denominador != 0){
+            resultado = numerador / denominador;
         }
         else{
             throw new Exception("Conflicto: denominador distinto de cero");
