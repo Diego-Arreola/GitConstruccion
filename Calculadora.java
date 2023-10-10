@@ -1,6 +1,6 @@
 public class Calculadora{
-    public static double calcularResta(double numeroBase, double numeroQueResta){
-        double resultado = numeroBase - numeroQueResta;
+    public static double calcularResta(double numeroMinuendo, double numeroSustraendo){
+        double resultado = numeroMinuendo - numeroSustraendo;
         return resultado;
     }
   }
