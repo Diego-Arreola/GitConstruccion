@@ -1,5 +1,5 @@
 public class Calculadora{
-    public double calcularDivision(double numerador, double denominador) throws Exception{
+    public static double calcularDivision(double numerador, double denominador) throws Exception{
         double resultado = 0;
 
         if(denominador != 0){
